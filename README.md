@@ -2,14 +2,6 @@
 
 **Splunk Enterprise · Azure VMs · VNet Peering · SOC Detection Skills**
 
-| Field | Value |
-|---|---|
-| Certification alignment | CompTIA Security+ · CySA+ · Splunk Core Certified User |
-| Environment | Azure (Ubuntu 22.04 Splunk VM, peered with an existing Windows Server VM) |
-| Tools | Splunk Enterprise (free licence), Azure CLI, Linux Mint, VNet Peering |
-| Cost | $0 — Splunk Free licence covers everything in this lab |
-| Career relevance | SOC Analyst (Tier 1–3) · Security Engineer · Incident Responder |
-
 ---
 
 ## The Business Problem This Lab Solves
@@ -17,13 +9,6 @@
 A medium-sized organisation generates millions of log events every day — Windows Event Logs from workstations, authentication logs from Active Directory, firewall logs from network equipment, cloud resource logs. Without a SIEM, those logs sit in separate systems and nobody can search across them, correlate events, or identify patterns that indicate an attack.
 
 The SIEM is the security operations centre's primary tool. When an alert fires, the SOC analyst opens the SIEM and searches the logs to understand what happened, when, from where, and what was affected.
-
-| Role | How this lab applies |
-|---|---|
-| SOC Analyst Tier 1 | Monitoring dashboards for alerts, searching logs for suspicious activity, escalating findings |
-| SOC Analyst Tier 2–3 | Building detection rules, correlating events across data sources, threat hunting |
-| Cloud Security Engineer | Microsoft Sentinel and AWS Security Hub use the same SIEM concepts — this lab teaches the mental model |
-| Incident Responder | Searching logs during an active incident, building a timeline of events, identifying scope of compromise |
 
 ---
 
