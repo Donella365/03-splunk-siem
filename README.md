@@ -16,7 +16,7 @@ In this lab, I deployed a Splunk Enterprise instance on an Ubuntu 22.04 virtual 
 
 ## Architecture
 
-This deployment connects **two separately-built Azure VMs** — a Windows Server VM from an earlier lab, and a new Ubuntu VM running Splunk — using **VNet peering**. 
+This deployment connects two separately-built Azure VMs — a Windows Server VM from an earlier lab, and a new Ubuntu VM running Splunk — using **VNet peering**. 
 
 <img width="1624" height="969" alt="lab3diagram" src="https://github.com/user-attachments/assets/0bcf9937-f816-48c6-a472-bd2d6a8c3570" />
 
